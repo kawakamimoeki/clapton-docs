@@ -1,0 +1,16 @@
+@media (min-width: 960px) {
+  .VPImage {
+    max-width: 500px !important;
+    max-height: 500px !important;
+  }
+}
+
+@media (max-width: 959px) {
+  .image-bg, .VPImage {
+    display: none;
+  }
+
+  .image-container {
+    max-height: 100px;
+  }
+}
